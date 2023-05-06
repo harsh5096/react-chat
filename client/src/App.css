@@ -1,0 +1,114 @@
+.container{
+  display: flex;
+  margin-right:30px;
+  margin-left:15px;
+}
+ .me {
+
+  margin-right: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 30px;
+}
+.chat-box{
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid white;
+ background-color: rgb(241 240 198);
+}
+.me .chat-box {
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: rgb(240, 255, 240);
+}
+
+  .btn {
+    border: 2px solid green;
+    width: 99%;
+    background-color: grey;
+    position: fixed;
+    bottom: 2px;
+    display: flex;
+}
+
+.btn input {
+  padding-left: 23px;
+  font-size: 15px;
+  width: 100%;
+
+  border: green;
+  padding: 8px;
+}
+.btn .input{
+  width: 90%;
+}
+
+.btn button {
+  background-color: black;
+  /* border-radius: 10%; */
+  cursor: pointer;
+  width: 10%;
+  color: white;
+  padding: 1;
+  font-family: math;
+  font-size: 17px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.btn button:hover{
+  color:black;
+  background-color: rgb(21, 216, 40);
+}
+
+.chat-container {
+  width: 100%;
+  background-color: cornflowerblue;
+  height: 80vh;
+  overflow-y: scroll;
+  border: 1px solid white;
+}
+
+h3{
+  padding: 12px;
+  font-family: cursive;
+  background-color: burlywood;
+}
+
+strong{
+  padding: 16px;
+}
+
+span{
+  padding-right: 12px;
+}
+
+@media screen and (max-width:778px) {
+  .btn button{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:574px) {
+  .btn button{
+    font-size: 9px;
+  }
+}
+@media screen and (max-width:484px) {
+  .btn .input {
+    width: 85%;
+}
+  .btn button{
+    width:15%;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width:324px) {
+  .btn .input {
+    width: 85%;
+}
+  .btn button{
+    width:15%;
+    font-size: 7px;
+  }
+}
